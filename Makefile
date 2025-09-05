@@ -8,3 +8,6 @@ run-nutrition:
 
 run-chatbot:
 	$(PYTHON) src/chatbot.py
+
+test-embd:
+	$(PYTHON) -m src.tests.test_embd

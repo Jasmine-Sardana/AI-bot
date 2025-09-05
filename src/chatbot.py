@@ -10,11 +10,11 @@ def ask_ollama(prompt):
     for line in res.iter_lines():
         if line:
             try:
-                data = json.loads(line.decode("utf-8"))  # ✅ use json.loads
+                data = json.loads(line.decode("utf-8"))  
                 if "response" in data:
                     output += data["response"]
             except json.JSONDecodeError:
-                continue  # skip any malformed line
+                continue 
     return output
 
 if __name__ == "__main__":

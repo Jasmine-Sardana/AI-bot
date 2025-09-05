@@ -1,2 +1,14 @@
+#core dependencies
 requests
 python-dotenv
+
+#maths
+numpy
+
+#vector database
+chromadb
+
+#db for logging meals
+sqlalchemy
+
+
