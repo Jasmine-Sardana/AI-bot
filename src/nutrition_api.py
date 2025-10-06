@@ -1,3 +1,7 @@
+'''Fetch nutritional information for a given food item using Spoonacular API.
+'''
+
+
 import requests, os, json
 from dotenv import load_dotenv
 

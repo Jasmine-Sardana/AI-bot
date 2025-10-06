@@ -1,3 +1,7 @@
+'''A simple chatbot interface which handles all interactions of user with the AI model.
+It recieves user input, sends it to the Ollama API, and streams back the response.
+'''
+
 import requests
 import json
 
