@@ -1,3 +1,10 @@
+'''
+Create embeddings of text using Ollama API.
+Embeddings are the numerical representation of text which can be used for similarity search.
+Eg "Banana" and "Apple" should have higher similarity than "Banana" and "Car".
+'''
+
+
 def get_embedding(text:str, model:str="llama3") -> list[float]:
     import requests
     import json
